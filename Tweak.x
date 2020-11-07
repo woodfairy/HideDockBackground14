@@ -1,7 +1,10 @@
 %hook SBDockView
--(UIView*)backgroundView {
-	UIView *orig = %orig;
-	[orig setHidden:YES];
-	return orig;
+- (void)setBackgroundView:(UIView *)arg1 {
+	%orig(nil);
+}
+%end
+%hook SBFloatingDockView
+- (void)setBackgroundView:(UIView *)arg1 {
+	%orig(nil);
 }
 %end
