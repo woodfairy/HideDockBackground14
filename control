@@ -1,0 +1,9 @@
+Package: 0xcc.woodfairy.hidedockbackground14
+Name: HideDockBackground14
+Version: 1.0
+Architecture: iphoneos-arm
+Description: Hide the dock background on iOS 14
+Maintainer: woodfairy
+Author: woodfairy
+Section: Tweaks
+Depends: mobilesubstrate (>= 0.9.5000)
